@@ -1,22 +1,31 @@
-h3
+.heading
 {
-    font-size: 25px !important;
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 5px darkslategrey;
 }
 
-.btn-success:hover
+.note
 {
-    background-color: cyan;
+    font-size: 15px;
+    color: black;
+}
+
+.copy_right_footer
+{
+    position: fixed;
+    color: whitesmoke;
+    bottom: 0;
+    width: 100%;
+    background-color: darkslategrey;
+    line-height: 3;
+    text-align: center;
 }
 
 canvas
 {
-    animation-name: example;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes example
-{
-    from {box-shadow: 1px 1px 38px darkblue;}
-    to {box-shadow: 1px 1px 38px cyan;}
+    border: 5px solid whitesmoke;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px darkslategrey;
 }
